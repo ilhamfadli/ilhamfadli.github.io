@@ -5,52 +5,36 @@
     padding: 0;
 }
 
-body{
-    font-size: 0.9rem;
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-}
-
-#header{
-    background-color: #212429;
-}
-
 nav{
+    margin-bottom: 1.5rem;
     padding: 1rem;
 }
 
-ul{
-    display: table;
-    margin: 0 auto;
-}
-
 ul li{
-    cursor: pointer;
     display: inline;
-    margin: 0.3rem;
-    color: rgb(214, 214, 214);
+    margin: 0.5rem;
+    cursor: pointer;
 }
 
-ul li:hover{
-    color: #fe1461;
-}
-
-#profile{
-    display: table;
-    margin: 0 auto;
-    margin-top: 5rem;
-}
-
-#avatar{
-    float: left;
-    margin-right: 1rem;
-}
-
-#bio{
-    float: right;
-    margin-left: 1rem;
-}
-
-#avatar img{
+#jumbotron img{
     width: 250px;
+    margin-bottom: 1rem;
+}
+
+#jumbotron .title{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#jumbotron button{
+    padding: 0.5rem;
+    background-color: black;
+    color: #fff;
+    border-radius: 0.25rem;
+    margin-top: 1rem;
+}
+
+.dTb-mA{
+    display: table;
+    margin: auto;
 }
